@@ -2,7 +2,7 @@
 
 Seamlessly integrate your Rails app with Cheddar Getter: https://cheddargetter.com
 
-This is version ZERO. Not ready for public consumption.
+This is version ZERO. Not ready for public consumption. In the meantime, you can use the lower-level cheddargetter gem directly: http://github.com/ads/cheddargetter
 
 == Copyright
 
