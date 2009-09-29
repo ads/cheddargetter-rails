@@ -5,11 +5,12 @@ begin
   require 'jeweler'
   Jeweler::Tasks.new do |gem|
     gem.name = "cheddargetter-rails"
-    gem.summary = %Q{TODO: one-line summary of your gem}
-    gem.description = %Q{TODO: longer description of your gem}
-    gem.email = "justin@megablaix.com"
+    gem.summary = %Q{Use Cheddar Getter in your rails app.}
+    gem.description = %Q{Integrate your rails models with Cheddar Getter for subscriptions/billing}
+    gem.email = "justin@adsdevshop.com"
     gem.homepage = "http://github.com/blaix/cheddargetter-rails"
-    gem.authors = ["Justin Blake"]
+    gem.authors = ["Atlantic Dominion solutions"]
+    gem.add_dependency "cheddargetter"
     gem.add_development_dependency "rspec"
     # gem is a Gem::Specification... see http://www.rubygems.org/read/chapter/20 for additional settings
   end
